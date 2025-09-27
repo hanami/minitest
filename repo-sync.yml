@@ -1,0 +1,17 @@
+name:
+  gem: hanami-minitest
+  constant: Hanami::Minitest
+github_org: hanami
+gemspec:
+  authors: ["Hanakai team"]
+  email: ["info@hanakai.org"]
+  summary: "Minitest support for Hanami."
+  homepage: "https://hanamirb.org"
+  required_ruby_version: ">= 3.1.0"
+  development_dependencies:
+    - bundler
+    - rspec
+    - yard
+  runtime_dependencies:
+    - [minitest, "~> 5.25"]
+    - [zeitwerk, "~> 2.6"]
